@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Graduation Project</string>
+
+    <string name="water_temprature">Water Temp</string>
+    <string name="ph_value">Ph Value</string>
+    <string name="water_level">Water Level</string>
+    <string name="amonia_value">Amonia Value</string>
+    <string name="data_observing">Watch Out The Data</string>
+    <string name="values_alarm">Set Values Alarm</string>
+    <string name="notification">Notifications</string>
+
+    <string name="open_weather_maps_app_id">AIzaSyC_cbq4YL9tI_5vMLXvjk4OuU3sKszj9z4</string>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+
+
+</resources>
