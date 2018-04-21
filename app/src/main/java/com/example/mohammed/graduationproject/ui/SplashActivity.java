@@ -1,9 +1,11 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.ui;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.mohammed.graduationproject.R;
 
 public class SplashActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,11 +7,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.mohammed.graduationproject.R;
+import com.example.mohammed.graduationproject.model.User;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText useNameET, userAdressET, userEmailET, userPhoneET, userJopET, userPasswordET;
+    User registerUser ;
 
 
     @Override
@@ -86,14 +90,22 @@ public class RegisterActivity extends AppCompatActivity {
 
         else{
             //handle Register here
-            registerUser();
+            registerUser = new User(
+                    useNameET.getText().toString(),
+                    userEmailET.getText().toString(),
+                    userPhoneET.getText().toString(),
+                    userAdressET.getText().toString(),
+                    userJopET.getText().toString(),
+                    userPasswordET.getText().toString());
+
+            registerUser(registerUser);
         }
 
 
 
     }
 
-    private boolean registerUser() {
+    private boolean registerUser(User registerUser) {
 
         return true ;
 

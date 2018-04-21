@@ -1,10 +1,11 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.mohammed.graduationproject.R;
 import com.example.mohammed.graduationproject.adapter.DataAdapter;
 import com.example.mohammed.graduationproject.adapter.NotificationAdapter;
 import com.example.mohammed.graduationproject.model.Notification;

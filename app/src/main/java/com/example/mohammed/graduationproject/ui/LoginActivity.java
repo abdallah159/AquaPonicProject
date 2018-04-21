@@ -1,10 +1,11 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.mohammed.graduationproject.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

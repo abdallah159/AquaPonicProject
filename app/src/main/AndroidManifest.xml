@@ -26,19 +26,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".AlarmActivity" />
-        <activity android:name=".WatchOutActivity" />
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.AlarmActivity" />
+        <activity android:name=".ui.WatchOutActivity" />
+        <activity android:name=".ui.NotificationActivity" />
+        <activity android:name=".ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.RegisterActivity"></activity>
     </application>
 
 </manifest>

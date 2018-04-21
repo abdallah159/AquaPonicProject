@@ -1,6 +1,8 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.utils;
 
 import android.content.Context;
+
+import com.example.mohammed.graduationproject.R;
 
 import org.json.JSONObject;
 

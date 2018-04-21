@@ -1,23 +1,18 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.ui;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.mohammed.graduationproject.model.Notification;
-
-import org.json.JSONObject;
+import com.example.mohammed.graduationproject.utils.GPSTracker;
+import com.example.mohammed.graduationproject.R;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

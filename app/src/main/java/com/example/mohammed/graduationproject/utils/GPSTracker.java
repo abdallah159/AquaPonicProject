@@ -1,4 +1,4 @@
-package com.example.mohammed.graduationproject;
+package com.example.mohammed.graduationproject.utils;
 
 import android.Manifest;
 import android.app.AlertDialog;
