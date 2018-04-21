@@ -11,15 +11,19 @@ public class User {
     private String adress ;
     private String job;
     private String password ;
+    private String isAdmin ;
 
+    public User() {
+    }
 
-    public User(String name, String email, String mobileNumber, String adress, String job, String password) {
+    public User(String name, String email, String mobileNumber, String adress, String job, String password, String isAdmin) {
         this.name = name;
         this.email = email;
         this.mobileNumber = mobileNumber;
         this.adress = adress;
         this.job = job;
         this.password = password;
+        this.isAdmin = isAdmin;
     }
 
     public String getName() {
@@ -69,4 +73,13 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String isAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(String admin) {
+        isAdmin = admin;
+    }
 }
+
